@@ -1,0 +1,11 @@
+.venv/
+**/node_modules/
+**/dist/
+**/.swc/
+**/__pycache__/
+*.pyc
+*.tsbuildinfo
+data/
+.env
+.env.*
+mini-program/project.private.config.json

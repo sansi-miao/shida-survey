@@ -1,0 +1,9 @@
+.git/
+.venv/
+.env*
+data/
+mini-program/
+**/node_modules/
+**/dist/
+**/__pycache__/
+**/*.pyc

@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: feedback-survey
+    runtime: docker
+    plan: free
+    healthCheckPath: /api/health
+    envVars:
+      - key: SURVEY_DATABASE_URL
+        sync: false
+      - key: SURVEY_ADMIN_TOKEN
+        generateValue: true
+      - key: SURVEY_SEED_DEMO
+        value: "1"
